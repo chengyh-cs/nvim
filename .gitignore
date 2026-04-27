@@ -1,0 +1,18 @@
+.DS_Store
+**/.DS_Store
+
+# Neovim/local logs
+.nvimlog
+*.log
+
+# Swap, backup, and undo files
+*.swp
+*.swo
+*.swn
+*~
+*.tmp
+
+# Local machine overrides
+.env
+.env.*
+!.env.example
