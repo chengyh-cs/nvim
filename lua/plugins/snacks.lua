@@ -19,6 +19,11 @@ return {
 				max_width = 80,
 				max_height = 40,
 			},
+			math = {
+				latex = {
+					font_size = "normalsize",
+				},
+			},
 		},
 		indent = { enabled = true },
 		input = { enabled = true },
