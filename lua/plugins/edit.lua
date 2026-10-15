@@ -309,11 +309,13 @@ return {
 		-- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
 		---@module 'render-markdown'
 		---@type render.md.UserConfig
-		opts = {},
-        completions = {
-            blink = { enabled = True },
-            lsp = { enabled = True },
-        }
+		opts = {
+			latex = { enabled = false },
+			completions = {
+				blink = { enabled = true },
+				lsp = { enabled = true },
+			},
+		},
 	},
 	-- NOTE: nvim-treesitter-context --> 函数名悬停
 	{

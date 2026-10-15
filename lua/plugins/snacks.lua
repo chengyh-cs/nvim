@@ -12,6 +12,20 @@ return {
 		explorer = { enabled = false },
 		image = {
 			enabled = true,
+			convert = {
+				magick = {
+					math = {
+						"-density",
+						192,
+						"{src}[0]",
+						"-trim",
+						"-bordercolor",
+						"transparent",
+						"-border",
+						"0x6",
+					},
+				},
+			},
 			doc = {
 				enabled = true,
 				inline = true,
@@ -21,7 +35,7 @@ return {
 			},
 			math = {
 				latex = {
-					font_size = "normalsize",
+					font_size = "scriptsize",
 				},
 			},
 		},

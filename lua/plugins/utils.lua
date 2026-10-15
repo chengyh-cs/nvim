@@ -44,6 +44,7 @@ return {
 				"vimdoc",
 				"markdown",
 				"markdown_inline",
+				"latex",
 			},
 
 			-- 自动安装缺失的解析器
